@@ -1,5 +1,5 @@
 import java.util.HashSet;
-import java.util.Iterator;
+import java.util.Iterator;// whwenever we use iterator we should have to be import the iterator.
 public class Hashset {
     public static void main(String args []){
         //creating hashset
@@ -16,7 +16,7 @@ public class Hashset {
         if(!set.contains(6)){
             System.out.println("6 is not present in the set");  
         }
-        //deleta
+        //delete
         set.remove(1);
         if(!set.contains(1)){
             System.out.println("1 is not present in the set");
